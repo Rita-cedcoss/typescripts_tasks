@@ -150,7 +150,7 @@ function App() {
       <h1>Class Component Task1</h1>
       <ErrorBoundaries random={randomNum} numGenerator={numGenerator}>
         <NumberGenerator random={randomNum} numGenerator={numGenerator} />
-      </ErrorBoundaries>
+      </ErrorBoundaries><hr/>
       <h1>Task2 : functional Component</h1>
       <ErrorBoundary FallbackComponent={FunErrorBoundary}>
         <RandomNumberGenerator
@@ -158,8 +158,10 @@ function App() {
           numGenerator={numGeneratorFun}
         />
       </ErrorBoundary>
+      <hr/>
       <h1>Task3: React app with typescript</h1>
       <MyComponent name="Rita Pal" num={10} isLoggedin={true} />
+      <hr/>
       <h1>Task4 :  Pass product details and print</h1>
       {arr.map((item) => {
         console.log(item);
