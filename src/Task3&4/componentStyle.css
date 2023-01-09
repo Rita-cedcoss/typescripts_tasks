@@ -1,0 +1,13 @@
+.outer {
+    min-height:300px;
+    width: 100%;
+    background-color: red;        
+}
+.gridItem {
+    border: 1px solid black;
+    border-radius: 3px;
+    max-width: 35%;
+    max-height: 300px;
+    height: auto;
+    margin: 20px auto;
+}
